@@ -48,8 +48,6 @@ Moviedeploy::Application.configure do
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
 
-  # Use a different logger for distributed setups.
-  # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
@@ -69,8 +67,6 @@ Moviedeploy::Application.configure do
   # the I18n.default_locale when a translation cannot be found).
   config.i18n.fallbacks = true
 
-  # Send deprecation notices to registered listeners.
-  config.active_support.deprecation = :notify
 
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
